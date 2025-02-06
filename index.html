@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <title>Spotify Clone</title>
+  </head>
+  <body>
+    <div class="container: flex bg-black">
+      <div class="left">
+        <div class="close">
+          <img width="25px" class="invert" src="close.svg" alt="" />
+        </div>
+        <div class="home bg-gray rounded m1 p1">
+          <div class="logo">
+            <img width="60px" class="invert" src="logo.svg" alt="logo" />
+          </div>
+          <ul>
+            <li><img class="invert" src="home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="search.svg" alt="search" />Search</li>
+          </ul>
+        </div>
+        <div class="library bg-gray rounded m1 p1">
+          <div class="heading">
+            <img class="invert" src="library.svg" alt="" />
+            <h2>Your library</h2>
+          </div>
+          <div class="songlist">
+            <ul></ul>
+          </div>
+          <div class="footer">
+            <div>
+              <a href=""><span>Legal</span></a>
+            </div>
+            <div>
+              <a href=""><span>Privacy Center</span></a>
+            </div>
+            <div>
+              <a href=""><span>Privacy Policy</span></a>
+            </div>
+            <div>
+              <a href=""><span>Cookies</span></a>
+            </div>
+            <div>
+              <a href=""><span>About Ads</span></a>
+            </div>
+            <div>
+              <a href=""><span>Accessibilty</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-gray rounded p1">
+        <div class="header">
+          <div class="nav">
+            <div class="hamburgerContainer">
+              <img class="invert hamburger" src="hamburger.svg" alt="" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                color="#ffffff"
+                fill="none"
+              >
+                <path
+                  d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                color="#fffffff"
+                fill="none"
+              >
+                <path
+                  d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="signupbtn">Sign up</button>
+            <button class="loginbtn">Log in</button>
+          </div>
+        </div>
+        <div class="Spotify-playlist">
+          <h1>Spotify Playlists</h1>
+          <div class="cardContainer">
+            <div data-folder="cs" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                  width="32"
+                  height="32"
+                >
+                  <circle cx="16" cy="16" r="14" fill="#1fdf64" />
+                  <polygon points="12,10 12,22 22,16" fill="black" />
+                </svg>
+              </div>
+              <img
+                src="img/img1.jpeg"
+                alt=""
+              />
+              <h2>Happy Hits</h2>
+              <p>Hits to boost your mood and full you with happiness!</p>
+            </div>
+
+            <div data-folder="ncs" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                  width="32"
+                  height="32"
+                >
+                  <circle cx="16" cy="16" r="14" fill="#1fdf64" />
+                  <polygon points="12,10 12,22 22,16" fill="black" />
+                </svg>
+              </div>
+              <img
+                src="img/img2.jpeg"
+                alt=""
+              />
+              <h2>Happy Hits</h2>
+              <p>Hits to boost your mood and full you with happiness!</p>
+            </div>
+
+            <div data-folder="old" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                  width="32"
+                  height="32"
+                >
+                  <circle cx="16" cy="16" r="14" fill="#1fdf64" />
+                  <polygon points="12,10 12,22 22,16" fill="black" />
+                </svg>
+              </div>
+              <img
+                src="img/img3.jpeg"
+                alt=""
+              />
+              <h2>Happy Hits</h2>
+              <p>Hits to boost your mood and full you with happiness!</p>
+            </div>
+            <div data-folder="cs" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                  width="32"
+                  height="32"
+                >
+                  <circle cx="16" cy="16" r="14" fill="#1fdf64" />
+                  <polygon points="12,10 12,22 22,16" fill="black" />
+                </svg>
+              </div>
+              <img
+                src="img/img4.jpeg"
+                alt=""
+              />
+              <h2>Happy Hits</h2>
+              <p>Hits to boost your mood and full you with happiness!</p>
+            </div>
+
+            <div data-folder="ncs" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                  width="32"
+                  height="32"
+                >
+                  <circle cx="16" cy="16" r="14" fill="#1fdf64" />
+                  <polygon points="12,10 12,22 22,16" fill="black" />
+                </svg>
+              </div>
+              <img
+                src="img/img5.jpeg"
+                alt=""
+              />
+              <h2>Happy Hits</h2>
+              <p>Hits to boost your mood and full you with happiness!</p>
+            </div>
+
+            <div data-folder="old" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                  width="32"
+                  height="32"
+                >
+                  <circle cx="16" cy="16" r="14" fill="#1fdf64" />
+                  <polygon points="12,10 12,22 22,16" fill="black" />
+                </svg>
+              </div>
+              <img
+                src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/daily/1/ab6761610000e5ebcb6926f44f620555ba444fca/en-GB"
+                alt=""
+              />
+              <h2>Happy Hits</h2>
+              <p>Hits to boost your mood and full you with happiness!</p>
+            </div>
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+            <div class="abovebar">
+              <div class="songinfo"></div>
+              <div class="songbutton">
+                <img width="35" id="previous" src="previous.svg" alt="" />
+                <img width="35" id="play" src="play.svg" alt="" />
+                <img width="35" id="next" src="next.svg" alt="" />
+              </div>
+              <div class="tv">
+              <div class="songtime"></div>
+              <div class="volume">
+                <img src="volume.svg" alt="" />
+                <div class="range">
+                  <input type="range" name="volume">
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
